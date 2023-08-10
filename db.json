@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageURL": "/images/product-img-1.jpg",
+      "productName": "Strawberry",
+      "productDetail": "Strawberries are a good source of vitamin C, manganese, folate vitamin B9, and potassium. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness.",
+      "price": 50,
+      "slug": "strawberry-1"
+    },
+    {
+      "id": 2,
+      "imageURL": "/images/product-img-2.jpg",
+      "productName": "Berry",
+      "productDetail":"A berry is a small, pulpy and often edible fruit in non-technical language. In botany, berry (botany) has a different definition: a fleshy fruit without a stone, produced from a single flower containing one ovary.",
+      "price": 60,
+      "slug": "berry"
+    },
+    {
+      "id": 3,
+      "imageURL": "/images/product-img-3.jpg",
+      "productName": "Lemon",
+      "productDetail":"The lemon Citrus limon is a species of small evergreen trees in the flowering plant family Rutaceae, native to Asia, primarily Northeast India (Assam), Northern Myanmar or China.",
+      "price": 70,
+      "slug": "lemon"
+    },
+    {
+      "id": 4,
+      "imageURL": "/images/product-img-4.jpg",
+      "productName": "Avocado",
+      "productDetail":"The avocado (Persea americana) is a medium-sized, evergreen tree in the laurel family (Lauraceae). It is native to the Americas and was first domesticated by Mesoamerican tribes more than 5,000 years ago. Then as now it was prized for its large and unusually oily fruit.",
+      "price": 80,
+      "slug": "avocado"
+    },
+    {
+      "id": 5,
+      "imageURL": "/images/product-img-5.jpg",
+      "productName": "Green Apple",
+      "productDetail":"The Granny Smith, also known as a green apple or sour apple, is an apple cultivar that originated in Australia in 1868. It is named after Maria Ann Smith, who propagated the cultivar from a chance seedling.",
+      "price": 90,
+      "slug": "green-apple"
+    },
+    {
+      "id": 6,
+      "imageURL": "/images/product-img-6.jpg",
+      "productName": "Strawberry",
+      "productDetail":"The garden strawberry (or simply strawberry; Fragaria ananassa is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness.",
+      "price": 100,
+      "slug": "strawberry-2"
+    }
+  ]
+}
