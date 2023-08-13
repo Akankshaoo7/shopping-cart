@@ -14,7 +14,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import AuthGuard from "./components/AuthGuard";
 import axiosInterceptor from "./services/interceptor";
 import { useEffect } from "react";
-import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from "react-helmet-async";
 
 function App() {
   const interceptor = axiosInterceptor();
@@ -23,23 +23,23 @@ function App() {
   }, []);
   return (
     <HelmetProvider>
-    <Routes>
-      <Route element={<MainLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/product/:productSlug" element={<Product />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route element={<AuthGuard />}>
-          <Route path="/checkout" element={<Checkout />} />
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/product/:productSlug" element={<Product />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route element={<AuthGuard />}>
+            <Route path="/checkout" element={<Checkout />} />
+          </Route>
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path="/reset-password" element={<ResetPassword />} />
+          <Route path="*" element={<ErrorPage />} />
         </Route>
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/forgot-password" element={<ForgotPassword />} />
-        <Route path="/reset-password" element={<ResetPassword />} />
-      </Route>
-      <Route path="*" element={<ErrorPage />} />
-    </Routes>
+      </Routes>
     </HelmetProvider>
   );
 }
